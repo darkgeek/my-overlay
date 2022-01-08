@@ -1,0 +1,12 @@
+diff -uNr a/meson.build b/meson.build
+--- a/meson.build       2021-12-15 21:51:50.000000000 +0800
++++ b/meson.build       2021-12-25 21:52:08.994000000 +0800
+@@ -41,7 +41,7 @@
+         '-Werror=sequence-point',
+         '-Werror=return-type',
+         '-Werror=trigraphs',
+-        '-Werror=array-bounds',
++#        '-Werror=array-bounds',
+         '-Werror=write-strings',
+         '-Werror=address',
+         '-Werror=int-to-pointer-cast',
